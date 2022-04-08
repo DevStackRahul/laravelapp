@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.welcome-row {
+    padding: 3% 3%;
+    font-family: 'Poppins', sans-serif;
+}
+.welcome-row .landing-page {
+    background: #fff;
+    padding: 2% 2%;
+    box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/***navbar tab css start ***/
+body{
+    background-color: rgb(241 242 243) !important;
+}
+.custom-wel {
+    display: none !important;
+}
+.cgt-desc{
+font-family: 'Poppins', sans-serif;
+}
+.cgt-desc ul.tabs {
+    margin: 0px;
+    padding: 0px 0px 3px 3px;
+    border-radius: 0px;
+    top: 0;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: #345FF1;
+    border: 0;
+}
+.clearfix{
+ clear: both;
+}
+ .cgt-desc ul li{
+ display: inline-block;
+ position: relative;
+ z-index: 0;
+ border-radius: 0px;
+ padding: 0;
+ }
+ .cgt-desc ul li:first-child{
+ margin: 0px;
+ }
+.cgt-desc ul li a {
+    display: block;
+    padding: 1em 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.3s;
+    margin: 3px 0px 0px 0px;
+}
+.cgt-desc ul li a:hover {
+    background: #fff;
+    color: #345FF1;
+    transition: .3s;
+}
+.cgt-desc ul li a.active {
+    color: #345FF1;
+    background: #fff;
+    margin: 0 !important;
+}
+ .cgt-desc .tab{
+ display: block;
+ border: 0px solid #e9e9e9;
+ padding: 15px;
+ background: #fafafa;
+ font-size: 14px;
+ border-radius: 0px;
+ }
+/***navbar tab css end ***/
+
+/*** welcome start  ***/
+.welcome-row h1 {
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.welcome-row h4 {
+        font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.welcome-row p {
+    font-size: 16px;
+}
+.step-lists {
+    padding: 15px 20px 10px 20px;
+    display: block;
+    background: #f1f1f3;
+    border-radius: 5px;
+}
+.step-lists li {
+    display: block !important;
+    font-size: 16px;
+    margin-bottom: 4px !important;
+}
+.two-col,
+.contact-col,
+.contact-col .col-12 {
+    width: 100%;
+    margin: 0;
+    display: inline-flex;
+}
+.two-col .col-6 {
+    width: 50%;
+}
+/*** welcome end  ***/
+
+/*** lens collection page start **/
+.lens-get-started {
+    padding-top: 3.2rem;
+    max-width: 95%;
+    margin: 0 auto;
+    padding-bottom: 3.2rem;
+}
+.lens-desc-content {
+    background: #fff;
+    padding: 2% 2%;
+  box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px;
+    border-top: 5px #345FF1 solid;
+    margin-bottom: 35px;
+}
+#Banner52Heading {
+    font-weight: 600;
+    font-size: 18px;
+}
+.lens-desc-content  .text-left {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.lens-desc-content .fa-check-circle {
+    font-size: 20px;
+    color: #345FF1;
+    padding-right: 13px;
+    position: relative;
+    top: 1px;
+}
+.create-collection {
+    background: #fff;
+    padding: 2% 2%;
+  box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    margin: auto !important;
+    float: none;
+}
+.create-collection h1 {
+    margin-top: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.Collection_Polaris-Card {
+    background: #fff;
+    padding: 2% 2%;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    margin: auto;
+    float: none;
+    border-top: 1px #f1efef solid;
+}
+.create-collection .primary-button-container {
+    text-align: right;
+}
+.create-collection .Polaris-Button--primary {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.create-collection .Polaris-Button--primary .Polaris-Button__Text {
+    display: block;
+    background: #345FF1;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.create-collection .Polaris-Button--primary .Polaris-Button__Text:hover,
+.collSaveButton:hover,
+.add_lenses_FormArea .add-btn:hover {
+    background: #333;
+    transition: .3s;
+}
+.CollectionCard__Section {
+    width: 100%;
+    padding: 15px 20px 10px 20px;
+    display: block;
+    background: #f1f1f3;
+    border-radius: 5px;
+}
+.CollectionCard__Section .row {
+    margin: 0;
+}
+.collection_Counts_heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.colltable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.colltable td, 
+.colltable th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.colltable .no-hover-checkbox label {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.colltable .collections-product_totals {
+    font-size: 14px;
+}
+.colltable .collections-table-td span {
+    width: 100%;
+    display: block;
+}
+.colltable .col-edit,
+.colltable .col-delete {
+    width: 150px;
+}
+.colltable .collect-edit-btn,
+.colltable .collect-delete-btn {
+    display: block;
+    background: #345FF1;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    transition: .3s;
+    text-align: center;
+    text-decoration: none;
+}
+.colltable .collect-edit-btn:hover,
+.colltable .collect-delete-btn:hover {
+    background: #333;
+    transition: .3s;
+}
+.colltable .collect-delete-btn {
+    background: #cf0000;
+}
+.colltable .collect-delete-btn:hover {
+    background: #333;
+}
+.colltable .collect-edit-btn:after {
+    font-family: "FontAwesome";
+    content: "\f044";
+    display: inline-block;
+    padding-left: 6px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.colltable .collect-delete-btn:after {
+    font-family: "FontAwesome";
+content:"\f014";
+display: inline-block;
+padding-left: 6px;
+vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.colltable input[type=checkbox], 
+.colltable input[type=radio] {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+.colltable input[type=checkbox]:checked,
+.colltable input[type=radio]:checked {
+    background-color: #345FF1;
+    border: 1px solid #345FF1;
+    padding: 2px;
+}
+.colltable input[type=checkbox]:focus,
+.colltable input[type=radio]:focus {
+    outline: 0;
+}
+.hideData{
+    display: none;
+}
+/*** lens collection page end **/
+
+/**** collection step 1 start  ***/
+.Custom-CollectionContainer {
+    background: #fff;
+    padding: 2% 2%;
+    box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.Editnavigation-Contents {
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.Editnavigation-Contents:hover {
+    cursor:pointer;
+    color: #345FF1;
+}
+.Editnavigation-Contents .fa-long-arrow-left {
+    font-size: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: 2.5px;
+}
+.Custom-CollectionContainer .form-numbers {
+    background: #333;
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 20px;
+}
+.Custom-CollectionContainer .form-numbers:before {
+    font-family: "FontAwesome";
+    content: "\f1ce";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.Custom-CollectionContainer .create-titletxt {
+    margin-bottom: 0;
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.create-collectionPage .coldetail-container, 
+.AddLensesForm .add_lenses_FormArea,
+.editCollection-dataForm .coldetail-container,
+ .AssignProducts #assignProductForm {
+    width: 100%;
+    padding: 15px 20px 20px 20px;
+    display: block;
+    background: #f1f1f3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.create-collectionPage .coldetail-container .colscard-heading,
+.create-collectionPage .coldetail-container .Second-FieldsecHeading,
+.create-collectionPage .coldetail-container .field-descriptionHeading,
+.editCollection-dataForm .coldetail-container .colscard-heading,
+.editCollection-dataForm .coldetail-container .Second-FieldsecHeading,
+.editCollection-dataForm .coldetail-container .field-descriptionHeading,
+.AssignProducts .small-desc-title{
+      font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.create-collectionPage .coldetail-container .colsubs-heading,
+.create-collectionPage .coldetail-container .field-descripContent,
+.editCollection-dataForm .coldetail-container .colsubs-heading,
+.editCollection-dataForm .coldetail-container .field-descripContent,
+.AssignProducts .small-desc-para {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.create-collectionPage .coldetail-container .field-descripContent,
+.editCollection-dataForm .coldetail-container .field-descripContent {
+    margin-top: 5px;
+}
+.create-collectionPage .coldetail-container .form-txtfileds,
+.create-collectionPage .coldetail-container .txt-inputs,
+.lens-title-col .txt-inputs,
+.editCollection-dataForm .coldetail-container .form-txtfileds,
+.editCollection-dataForm .coldetail-container .txt-inputs,
+.AssignProducts .assign-Fields,
+.settingmainCat-forms .Form-fields input {
+    margin: 0;
+    height: 50px;
+    padding: 10px 14px;
+    width: 100%;
+    background: #fff;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    color: #5a5a5a;
+    font-size: 15px;
+    transition: 0.2s;
+        font-weight: 300;
+}
+.create-collectionPage .coldetail-container .form-txtfileds:focus,
+.create-collectionPage .coldetail-container .txt-inputs:focus,
+.lens-title-col .txt-inputs:focus,
+.table-borderless input:focus,
+.editCollection-dataForm .coldetail-container .form-txtfileds:focus,
+.editCollection-dataForm .coldetail-container .txt-inputs:focus,
+.AssignProducts .assign-Fields:focus,
+.settingmainCat-forms .Form-fields input:focus {
+    outline: 0;
+    border: 1px #333 solid;
+    transition: 0.2s;
+}
+.create-collectionPage .CatPreType-checkbox,
+.editCollection-dataForm .CatPreType-checkbox {
+    font-size: 15px;
+}
+.create-collectionPage .CatPreType-checkbox label,
+.editCollection-dataForm .CatPreType-checkbox label {
+    margin-bottom: 0;
+}
+.create-collectionPage .CatPreType-checkbox .pre-names,
+.editCollection-dataForm .CatPreType-checkbox .pre-names {
+    font-weight: 400;
+}
+.create-collectionPage .choice-check-outer,
+.editCollection-dataForm .choice-check-outer {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.create-collectionPage .choose-subcats,
+.editCollection-dataForm .choose-subcats {
+    width: 100%;
+    padding: 15px 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-left: 5px #333 solid;
+    margin-top: 5px;
+}
+.create-collectionPage .choose-subcats .subcat-desc,
+.editCollection-dataForm .choose-subcats .subcat-desc {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.create-collectionPage .choose-subcats input,
+.editCollection-dataForm .choose-subcats input {
+    margin-right: 2px;
+    position: relative;
+    top: 1.5px;
+}
+.form-errorApears {
+    border: 1px #f00 solid;
+}
+.form-errorApears .error-txt,
+.error-msgs {
+    color: #f00;
+    padding-top: 10px;
+}
+.collSaveButton {
+    display: block;
+    background: #345FF1;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    transition: .3s;
+    border: 0;
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 3px;
+}
+/**** collection step 1 end  ***/
+
+/**** collection step 2 start  ***/
+.addLensform-headers {
+    font-size: 18px;
+}
+.add_lenses_FormArea .row {
+    width: 100%;
+    margin: 0;
+}
+.add_lenses_FormArea .gp-lens-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.add_lenses_FormArea .gp-lens-title:after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #333;
+    width: 10rem;
+    margin: 0px 0px 0px 0px;
+    transform: translateY(-1rem);
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+.add_lenses_FormArea .lens-title-col {
+    margin-bottom: 25px;
+}
+.add_lenses_FormArea .lens-title-col .display-title-inputFields {
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+}
+.add_lenses_FormArea .lens-title-col .display_titles {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.add_lenses_FormArea .add-btn {
+    display: block;
+    background: #345FF1;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px 8px 30px;
+    border-radius: 5px;
+    transition: .3s;
+    border: 0;
+    float: right;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.AddLensesForm .add_lenses_FormArea {
+	margin-top: 0px;
+}
+.table-borderless {
+    width: 100% !important;
+    border-collapse: collapse;
+    margin-bottom: 0 !important;
+}
+.table-borderless td, 
+.table-borderless th {
+    border: 1px solid #dddddd !important;
+    text-align: left;
+    padding: 8px;
+}
+.table-borderless th {
+       border-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    font-size: 16px;
+}
+.table-borderless th strong {
+    font-weight: 500;
+}
+.table-borderless input {
+    margin: 0;
+    height: 45px;
+    padding: 10px 14px;
+    width: 100% !important;
+    background: #ffffff;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    color: #5a5a5a;
+    font-size: 15px;
+    transition: 0.2s;
+    font-weight: 300;
+}
+.table-borderless .lens-deleteIcon button {
+    background: #cf0000;
+    color: #fff;
+    border: 0;
+    font-size: 22px;
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0px 10px;
+    transition: 0.3s;
+}
+.table-borderless .lens-deleteIcon button:hover {
+    background: #333;
+    color: #fff;
+    border: 0;
+}
+/**** collection step 2 end  ***/
+
+/*** asign product page start  ***/
+.AssignProducts #assignProductForm {
+	 margin-bottom: 0px;
+ }
+.AssignProducts .coldetail-container {
+    background-color: transparent;
+    padding: 0;
+}
+.AssignProducts .assign-Fields:hover {
+	cursor: pointer;
+}
+.AssignProducts .small-desc-para {
+	margin-bottom: 0px;
+	    margin-top: 5px;
+}
+.AssignProducts .productLists {
+    width: 100%;
+    border-collapse: collapse;
+}
+.AssignProducts .productLists td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    height: 54px;
+}
+.AssignProducts .productLists td .porductImgs {
+    width: 40px;
+}
+.AssignProducts .load-more-data {
+    font-size: 24px;
+    color: #333;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin: 15px 0px 10px 0px;
+}
+ /*** asign product page end  ***/
+ 
+ /*** setting page start  ***/
+.settingmainCat-forms .coldetail-container {
+    background: #f1f1f3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+.settingmainCat-forms .colscard-heading {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+	margin-bottom: 3px;
+}
+.settingmainCat-forms .colscard-sub-heading {
+    font-size: 14px;
+}
+.settingmainCat-forms .customCreates_Choices label {
+    width: 100%;
+    margin-bottom: 0;
+}
+.settingmainCat-forms .customCreates_Choices .pre-names {
+    font-weight: 400;
+    font-size: 14px;
+}
+.settingmainCat-forms .customCreates_Choices input {
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+.settingmainCat-forms .Form-fields .color-f {
+    width: 15% !important;
+    float: left;
+    margin-right: 10px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+.settingmainCat-forms .Form-fields label {
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+ /*** setting page end  ***/
+
+/****order page start  ****/
+.OrdersData .create-titletxt,
+.Settings-Page .create-titletxt {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.orderempty-msg {
+    background: #fff;
+    padding: 3% 2%;
+    box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 5px #345ff1 solid;
+    max-width: 500px;
+}
+.orderempty-msg img {
+    width: 150px;
+}
+.orderempty-msg .main-txts {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 30px 0px 5px 0px;
+}
+.orderempty-msg .simple-txts {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+/****order page end  ****/
+
+/**collection edit page **/
+.coldetail-container {
+    background-color: #fff;
+    padding: 17px;
+}
+#collec-titles {
+    width: 100%;
+}
+/** end collection edit page**/
+
+
+/*** contact start  ***/
+.contact-col {
+    margin-top: 25px;
+}
+.contact-col .col-7 {
+    width: 60%;
+    padding-right: 20px;
+}
+.contact-col .col-3 {
+    width: 40%;
+    background: #333;
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: #fff;
+}
+.contact-col .col-6 {
+    width: 50%;
+    border-left: 5px #fff solid;
+    border-right: 5px #fff solid;
+    margin-bottom: 12px;
+}
+.contact-col .side-space {
+        border-left: 5px #fff solid;
+    border-right: 5px #fff solid;
+}
+.contact-col .line:after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #fff;
+    width: 6rem;
+    margin: 0px 0px 0px 0px;
+    transform: translateY(-1rem);
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+.contact-col .col-3 .line {
+    font-size: 20px;
+}
+.contact-col img {
+    margin-bottom: 15px;
+}
+.contact-col .col-3 h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact-col .col-3 h5 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.contact-col #contactusForm label {
+    width: 100%;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-col #contactusForm input,
+.contact-col #contactusForm textarea {
+    margin: 0;
+    height: 50px;
+    padding: 0px 14px!important;
+    width: 100%;
+    background: #fff!important;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    color: #5a5a5a;
+    font-size: 16px;
+     transition: 0.2s;
+}
+.contact-col #contactusForm textarea {
+        width: 100%;
+    height: 100px;
+    padding: 10px 14px!important;
+}
+.contact-col #contactusForm input:focus, 
+.contact-col #contactusForm textarea:focus {
+    outline: 0;
+    border: 1px #333 solid;
+    transition: 0.2s;
+}
+.contact-col #contactusForm .submit-btn {
+    margin: 20px 0px 0px 0px;
+    height: 50px;
+    width: 100%;
+    background: #345FF1 !important;
+    border: 1px #345FF1 solid;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-col #contactusForm .submit-btn:hover {
+    background: #333 !important;
+    border: 1px #333 solid;
+    transition: 0.3s;
+}
+.contact-col .disable-btn {
+    opacity: 0.5;
+}
+.sent-row,
+.error-row {
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: auto;
+    max-width: 300px;
+    padding: 10px 20px;
+    margin-top: 22px;
+}
+.sent-row img,
+.error-row img {
+    margin-bottom: 0;
+}
+.sent-row h2,
+.error-row h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #46cc6b;
+}
+.error-row h2 {
+    color: #d84557;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.sent-row p,
+.error-row p {
+    margin-bottom: 0;
+}
+/*** contact end  ***/
+
+/*** faq start ***/
+.accordion_container {
+    width: 100%;
+    margin-top: 35px;
+}
+.accordion_head {
+    background-color: #f1f1f3;
+    color: #333;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.accordion_body {
+    background: #ffffff;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 10px;
+}
+.accordion_body p {
+    padding: 18px 5px;
+    margin: 0px;
+}
+.plusminus {
+    float:right;
+}
+/*** faq end ***/
+
+/**** MEDIA QUERY  ****/
+@media only screen and (max-width: 1024px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    .two-col {
+    display: block;
+}
+.two-col .col-6 {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .lens-desc-content .fa-check-circle {
+    display: block;
+    margin-bottom: 5px;
+}
+    .lens-desc-content  .text-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+.create-collection .Polaris-Button--primary .Polaris-Button__Text {
+    margin-bottom: 12px;
+}
+.create-collection .primary-button-container {
+    text-align: left;
+    margin-top: 15px;
+}
+.colltable .collect-edit-btn, .colltable .collect-delete-btn {
+    font-size: 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.colltable .collect-edit-btn:after {
+    padding-left: 0;
+    top: 0;
+    font-size: 16px;
+}
+.colltable .collect-delete-btn:after {
+    padding-left: 0;
+    top: 0;
+    font-size: 16px;
+}
+.contact-col, .contact-col .col-12 {
+    display: block;
+}
+.contact-col .col-7 {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.contact-col .col-3 {
+      width: 100%;
+}
+.contact-col .col-6,
+.contact-col .side-space {
+    width: 100%;
+    border-left: 0px #fff solid;
+    border-right: 0px #fff solid;
+}
+}

@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^(.*)\.example\.com
+    RewriteRule ^(.*)$ /%1/$1 [L,NC,QSA]
+</IfModule>
